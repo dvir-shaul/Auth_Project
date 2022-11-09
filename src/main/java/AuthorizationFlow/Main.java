@@ -11,6 +11,8 @@ import java.security.InvalidParameterException;
 public class Main {
     private static Logger logger = LogManager.getLogger(Main.class.getName());
 
+
+
     public static void main(String[] args) {
         logger.info("Start main Func");
         AuthenticationController authController = new AuthenticationController();
