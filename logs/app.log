@@ -1,0 +1,42 @@
+2022-11-09 14:19:47,666 INFO    AuthorizationFlow.Main - Start main Func
+2022-11-09 14:19:47,671 INFO    AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - get instance
+2022-11-09 14:19:47,671 INFO    AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - Constructor func
+2022-11-09 14:19:47,671 INFO    AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - loadAllUsersToCache func
+2022-11-09 14:19:47,672 WARN    AuthorizationFlow.Controllers.UserRepository - read from file
+2022-11-09 14:19:47,735 DEBUG   AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - loadAllUsersToCache func
+2022-11-09 14:19:47,744 WARN    AuthorizationFlow.Controllers.UserRepository - read from file
+2022-11-09 14:19:47,744 DEBUG   AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - loadAllUsersToCache func
+2022-11-09 14:19:47,746 INFO    AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - get instance
+2022-11-09 14:19:47,746 INFO    AuthorizationFlow.Controllers.AuthenticationController - Currently in AuthenticationController - Register with fileName func
+2022-11-09 14:19:47,747 INFO    AuthorizationFlow.Controllers.AuthenticationService - Currently in AuthenticationService - register
+2022-11-09 14:19:47,747 INFO    AuthorizationFlow.Controllers.AuthenticationService - Currently in AuthenticationService - checkIfUserExists
+2022-11-09 14:19:47,818 WARN    AuthorizationFlow.Controllers.AuthenticationService - write to file
+2022-11-09 14:19:47,819 INFO    AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - writeToFile with fileName func
+2022-11-09 14:19:47,819 WARN    AuthorizationFlow.Controllers.UserRepository - write to file
+2022-11-09 14:19:47,822 INFO    AuthorizationFlow.Controllers.AuthenticationController - Currently in AuthenticationController - login
+2022-11-09 14:19:47,823 INFO    AuthorizationFlow.Controllers.AuthenticationService - Currently in AuthenticationService - login
+2022-11-09 14:19:47,823 INFO    AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - readFromCache func
+2022-11-09 14:19:47,823 INFO    AuthorizationFlow.Controllers.AuthenticationService - Currently in AuthenticationService - createToken
+2022-11-09 14:19:47,824 INFO    AuthorizationFlow.Controllers.UserController - Currently in UserController - updateEmail func
+2022-11-09 14:19:47,824 INFO    AuthorizationFlow.Controllers.UserService - Currently in UserService - updateEmail func
+2022-11-09 14:19:47,824 INFO    AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - deleteFile by user func
+2022-11-09 14:19:47,824 INFO    AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - deleteFile by path func
+2022-11-09 14:19:47,825 INFO    AuthorizationFlow.Controllers.UserService - Currently in UserService - updateData func
+2022-11-09 14:19:47,825 INFO    AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - writeToFile with fileName func
+2022-11-09 14:19:47,825 WARN    AuthorizationFlow.Controllers.UserRepository - write to file
+2022-11-09 14:19:47,825 INFO    AuthorizationFlow.Controllers.AuthenticationService - Currently in AuthenticationService - reloadUser
+2022-11-09 14:19:47,825 INFO    AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - readFromCache func
+2022-11-09 14:19:47,826 WARN    AuthorizationFlow.Main - trying to login with previous email when no mail
+2022-11-09 14:19:47,826 INFO    AuthorizationFlow.Controllers.AuthenticationController - Currently in AuthenticationController - login
+2022-11-09 14:19:47,826 INFO    AuthorizationFlow.Controllers.AuthenticationService - Currently in AuthenticationService - login
+2022-11-09 14:19:47,826 INFO    AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - readFromCache func
+2022-11-09 14:19:47,827 FATAL   AuthorizationFlow.Main - java.lang.IllegalArgumentException: user doesn"t exist
+2022-11-09 14:19:47,827 INFO    AuthorizationFlow.Controllers.UserService - Currently in UserService - updateName func
+2022-11-09 14:19:47,828 INFO    AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - deleteFile by user func
+2022-11-09 14:19:47,828 INFO    AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - deleteFile by path func
+2022-11-09 14:19:47,828 INFO    AuthorizationFlow.Controllers.UserService - Currently in UserService - updateData func
+2022-11-09 14:19:47,828 INFO    AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - writeToFile with fileName func
+2022-11-09 14:19:47,828 WARN    AuthorizationFlow.Controllers.UserRepository - write to file
+2022-11-09 14:19:47,829 INFO    AuthorizationFlow.Controllers.AuthenticationService - Currently in AuthenticationService - reloadUser
+2022-11-09 14:19:47,829 INFO    AuthorizationFlow.Controllers.UserRepository - Currently in UserRepository - readFromCache func
+2022-11-09 14:19:47,829 FATAL   AuthorizationFlow.Main - java.security.InvalidParameterException: Token incorrect
